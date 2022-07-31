@@ -1,7 +1,11 @@
 import BlogPostsCell from 'src/components/BlogPostsCell'
 
 const BlogPostsPage = () => {
-  return <BlogPostsCell />
+  return (
+    <div className="blog-posts-page">
+      <BlogPostsCell />
+    </div>
+  )
 }
 
 export default BlogPostsPage

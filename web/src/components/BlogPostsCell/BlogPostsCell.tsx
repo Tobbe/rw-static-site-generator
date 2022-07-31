@@ -24,20 +24,22 @@ export const Failure = ({ error }: CellFailureProps) => (
 
 export const Success = ({ blogPosts }: CellSuccessProps<BlogPostsQuery>) => {
   return (
-    <ul>
+    <div>
       {blogPosts.map((post) => {
         return (
-          <li key={post.slug}>
-            <a href={`/blog/${post.slug}`}>
-              <div>
-                <h2>{post.title}</h2>
-                <span>{post.createdAt}</span>
-              </div>
-              <p>{post.summary}</p>
-            </a>
-          </li>
+          <div key={post.slug}>
+            <div>
+              <h2>
+                <a href={`/blog/${post.slug}`} key={post.slug}>
+                  {post.title}
+                </a>
+              </h2>
+              <span className="date-time">{post.createdAt}</span>
+            </div>
+            <p>{post.summary}</p>
+          </div>
         )
       })}
-    </ul>
+    </div>
   )
 }
