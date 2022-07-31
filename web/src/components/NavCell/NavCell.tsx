@@ -1,5 +1,6 @@
 import type { NavQuery, NavQueryVariables } from 'types/graphql'
 
+import { Link, routes } from '@redwoodjs/router'
 import type { CellSuccessProps, CellFailureProps } from '@redwoodjs/web'
 
 export const QUERY = gql`
@@ -28,10 +29,15 @@ export const Success = ({
   return (
     <nav>
       <ul>
+        <li>
+          <Link to={routes.home()}>Home</Link>
+        </li>
         {blogPosts.map((post) => {
           return (
             <li key={post.slug}>
-              <a href={`/blog/${post.slug}`}>{post.title}</a>
+              <Link to={routes.blogPost({ slug: post.slug })}>
+                {post.title}
+              </Link>
             </li>
           )
         })}

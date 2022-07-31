@@ -18,9 +18,14 @@ nav ul {
   padding: 0;
 }
 
+nav li:first-of-type {
+  margin-bottom: .4em;
+}
+
 .blog-posts-page .date-time {
   font-size: .8em;
   color: var(--text-muted);
+  font-style: italic;
 }
 
 .blog-posts-page h2 {
