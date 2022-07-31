@@ -3,6 +3,7 @@ author: Tobbe Lundberg
 createdAt: 2022-07-31T08:49:37.281Z
 updatedAt: 2022-07-31T08:58:29.673Z
 title: Adaptogen Kale Chips
+summary: A funny post about Kale Chips. Read the full post to see what Hipster Lipsum has on the subject.
 ---
 
 Hipster Lipsum is just great! Check this gem out! 😄

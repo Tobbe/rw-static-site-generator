@@ -2,6 +2,7 @@
 author: Tobbe Lundberg
 createdAt: 2022-07-31T08:41:29.718Z
 title: First Post
+summary: Ironic first blog post. With a beautiful sun!
 ---
 
 This is the very first post on my new blog. I will never get tired of blogging and promise one new post per day.

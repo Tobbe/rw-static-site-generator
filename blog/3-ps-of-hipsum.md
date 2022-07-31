@@ -2,6 +2,7 @@
 author: Tobbe Lundberg
 createdAt: 2022-07-31T08:59:21.883Z
 title: 3 <p>s of Hipsum
+summary: Hexagon try-hard single-origin coffee... Waistcoat wayfarers... Celiac messenger bag shaman
 ---
 
 Hexagon try-hard single-origin coffee stumptown cloud bread banjo, readymade seitan next level poutine tattooed knausgaard you probably haven't heard of them. Yuccie craft beer cold-pressed shaman, lo-fi scenester fixie food truck fam. Locavore tilde artisan yuccie hot chicken intelligentsia. Lo-fi selfies tbh 90's woke live-edge, hot chicken four dollar toast blue bottle austin mlkshk man braid chillwave. Umami cloud bread kickstarter, forage mixtape affogato etsy.
