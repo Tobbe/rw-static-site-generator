@@ -6,6 +6,8 @@ import type {
 
 import type { CellSuccessProps, CellFailureProps } from '@redwoodjs/web'
 
+const md = markdownIt()
+
 export const QUERY = gql`
   query FindBlogPostQuery($slug: String!) {
     blogPost: blogPost(slug: $slug) {
@@ -31,8 +33,6 @@ export const Failure = ({
 export const Success = ({
   blogPost,
 }: CellSuccessProps<FindBlogPostQuery, FindBlogPostQueryVariables>) => {
-  const md = markdownIt()
-  console.log('md', md)
   return (
     <article>
       <h1>{blogPost.title}</h1>

@@ -1,5 +1,4 @@
 import fs from 'fs'
-import process from 'process'
 
 import fm from 'front-matter'
 import type { QueryResolvers } from 'types/graphql'
@@ -34,8 +33,6 @@ export const blogPosts: QueryResolvers['blogPosts'] = () => {
 }
 
 export const blogPost: QueryResolvers['blogPost'] = ({ slug }) => {
-  console.log('slug', slug, 'cwd', process.cwd())
-
   if (slug.includes('.') || slug.includes('/') || slug.includes('\\')) {
     throw new Error('Invalid slug ' + slug)
   }
